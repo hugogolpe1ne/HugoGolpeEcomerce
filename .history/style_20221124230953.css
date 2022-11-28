@@ -1,0 +1,135 @@
+html{
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+header{
+    text-align: center;
+    margin: 0%;
+    color: rgb(255, 255, 255);
+    background-color: silver ;
+    border-bottom: 15px;
+    padding: 40px;
+}
+.HeaderLink{
+    display: block;
+    color: white;
+    background-color: silver;
+    text-align: center;
+    text-decoration: none;
+    border: none; 
+    margin-bottom: 8px;
+    font-size: 70px;
+    font-weight: 100;
+    padding: 5px;
+}
+.subtitulo {
+    font-size: 1cm;
+    padding: 10px;
+    text-decoration: underline ;
+}
+a{
+  display: block;
+  justify-content: space-between;
+  block-size: 5px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  text-decoration: wavy;
+  border-width: 1px;
+  border-style:solid;
+  border-color: lightblue;
+  border-radius: 8px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding: 15px;
+}
+main{
+    align-items: center;
+    height: 600px;
+    margin: auto;
+    padding: 50px;
+  }
+.TiendaMain{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    margin: auto;
+    padding: 50px;
+  }
+button {
+    border: none;
+    background-color: white;
+    padding: 12px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+  }
+.NavFooter {
+    background-color: silver;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Registroh1{
+    font-size: 25px;
+    margin-top: 2px;
+}
+form {
+  background-color: silver;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid lightblue;
+    border-radius: 1em;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+  }
+  input:focus,
+  textarea:focus {
+    border-color: grey;
+  }
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  .Testamento{
+    font-size: x-large;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  .card {
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+
+
